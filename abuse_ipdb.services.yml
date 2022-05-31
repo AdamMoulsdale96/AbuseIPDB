@@ -1,0 +1,6 @@
+services:
+  abuse_ipdb:
+    class: '\Drupal\abuse_ipdb\EventSubscriber\Request'
+    arguments: ['@keyvalue.expirable', '@request_stack']
+    tags:
+      - { name: 'event_subscriber' }

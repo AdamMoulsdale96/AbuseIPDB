@@ -1,0 +1,6 @@
+name: 'Abuse IPDB'
+type: module
+description: 'Uses AbuseIPDB to block access from malicious bots.'
+package: custom
+version: '1.x-dev'
+core_version_requirement: '^8 || ^9'
